@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color:#ffffff; */
+}
+
+.container{
+    background-color: aqua;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+/*     justify-content: space-around; */
+}
+nav li{
+    margin: 18px;
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    color:#495057;
+    
+}
+
+.boton{
+    align-self: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: green;
+    padding: 8px 30px;
+    border-radius: 15px;
+}
